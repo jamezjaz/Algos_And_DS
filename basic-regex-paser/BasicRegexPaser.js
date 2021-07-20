@@ -16,9 +16,9 @@ function isMatch(text, pattern) {
   else return match && isMatch(text.substring(1), pattern.substring(1));
 };
 
-isMatch('abbb', 'ab*');
+console.log(isMatch('abbb', 'ab*'));
 // true
-isMatch('aa', 'a*');
+console.log(isMatch('aa', 'a*'));
 // false
-isMatch('acd', 'ab*c.');
+console.log(isMatch('acd', 'ab*c.'));
 // true
