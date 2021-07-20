@@ -5,7 +5,7 @@ const isMatch = (text, pattern) => {
 
 console.log(isMatch('abbb', 'ab*'));
 // true
-console.log(isMatch('aa', 'a*'));
+console.log(isMatch('mississippi', 'mis*is*p*.'));
 // false
 console.log(isMatch('acd', 'ab*c.'));
 // true
